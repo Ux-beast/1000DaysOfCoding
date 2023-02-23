@@ -1,5 +1,8 @@
-let currentResult = 0;
 
-currentResult = currentResult + 10*4;
+const defaultResult =0;
+let currentResult = defaultResult;
 
-outputResult(currentResult,'');
+currentResult = (currentResult + 10)*3/2-1;
+let calculationDescription = `(${defaultResult} +10)* 3 / 2-1`;
+let errorMassage = 'An Error \n' + 'Occured';
+outputResult(calculationDescription,'');
